@@ -1,6 +1,7 @@
 body {
   /* overflow: hidden; */
   margin: 0;
+  font-family: sans-serif;
   padding: 0;
   box-sizing: border-box;
 }
@@ -67,30 +68,23 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   /* width: 100vw; */
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
-#firstbox {
-  width: 60%;
-}
 #banerh1 {
   font-size: -webkit-xxx-large;
+  margin-left: 5rem;
 }
 #secondbox {
   display: flex;
   height: 100%;
   width: 70%;
-}
-#secondbox {
-  /* height: 100%; */
-  /* width: 30%; */
   position: absolute;
   left: 60%;
-}
-#secondbox img {
+  top: 15%;
   overflow: hidden;
 }
 #findbtn {
@@ -108,10 +102,6 @@ body {
   margin: 0px 10px;
   /* height: 10px; */
   padding: 10px;
-}
-#banner2 {
-  width: 100%;
-  height: 70%;
 }
 #banner2 img {
   height: 400px;
@@ -135,19 +125,12 @@ body {
   background-color: #ffffff;
 }
 #banner3 h1 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
 }
 #banner3 h3 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  
   font-size: 20px;
   word-spacing: 3px;
-}
-#banner3 p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #baner3btn {
   border: none;
@@ -162,8 +145,10 @@ body {
 
 #citiesh1 {
   margin-top: 247px;
+  margin-left: 50px;
   font-weight: bold;
-  padding-left: 26px;
+  /* padding-left: 26px; */
+  font-size: 42px;
 }
 #cities {
   display: flex;
@@ -255,3 +240,44 @@ body {
   left: 10px;
   bottom: 1px;
 }
+#banner4 {
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+#banner4 img {
+  height: 400px;
+  object-fit: cover;
+}
+#banner4 h1 {
+  font-size: 40px;
+  margin: 40px 50px;
+}
+#banner5 {
+  box-shadow: 1px 1px 6px grey;
+  width: 43%;
+  padding: 1rem 3rem;
+  position: absolute;
+  top: 400px;
+  z-index: 1;
+  border-radius: 20px;
+  margin-left: 45px;
+  background-color: #ffffff;
+}
+#banner5 h1 {
+  font-size: 30px;
+}
+#banner5h3 {
+
+  font-size: 20px;
+  word-spacing: 3px;
+}
+#baner5btn {
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e21b70;
+  color: white;
+  font-weight: bold;
+}
+

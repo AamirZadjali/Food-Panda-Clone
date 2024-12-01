@@ -128,7 +128,6 @@ body {
   font-size: 30px;
 }
 #banner3 h3 {
-  
   font-size: 20px;
   word-spacing: 3px;
 }
@@ -178,8 +177,9 @@ body {
 }
 
 #karachi {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqrP55UOyD58Hsz8jcKqO9JMfeq1w0yL9xg&s);
+  background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Karachi.jpg?width=720);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 300px;
   width: 300px;
@@ -199,8 +199,9 @@ body {
   bottom: 1px;
 }
 #lahore {
-  background-image: url(https://img.goodfon.com/wallpaper/big/a/44/badshahi-mosque-lahore-pakistan.webp);
+  background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Lahore.jpg?width=720);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 300px;
   width: 300px;
@@ -219,10 +220,11 @@ body {
   left: 10px;
   bottom: 1px;
 }
-#peshawar {
-  background-image: url(https://www.shutterstock.com/image-photo/peshawar-landmark-khyber-pakhtunkhwa-pakistan-260nw-1459768916.jpg);
+#larkana {
+  background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Larkana.jpg?width=720);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 300px;
   width: 300px;
   border: none;
@@ -231,7 +233,7 @@ body {
   margin: 20px;
   position: relative;
 }
-#peshawar h1 {
+#larkana h1 {
   background-color: #ffffff;
   width: fit-content;
   border-radius: 10px;
@@ -240,6 +242,97 @@ body {
   left: 10px;
   bottom: 1px;
 }
+#bahawalpur {
+  background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Bahawalpur.jpg?width=720);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px;
+  position: relative;
+}
+#bahawalpur h1 {
+  background-color: #ffffff;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  left: 10px;
+  bottom: 1px;
+}
+
+#abottabad {
+  background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Abottabad.jpg?width=720);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px;
+  position: relative;
+}
+#abottabad h1 {
+  background-color: #ffffff;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  left: 10px;
+  bottom: 1px;
+}
+#faisalabad {
+  background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Faisalabad.jpg?width=720);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px;
+  position: relative;
+}
+#faisalabad h1 {
+  background-color: #ffffff;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  left: 10px;
+  bottom: 1px;
+}
+
+#rawalpindi {
+  background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Rawalpindi.jpg?width=720n);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px;
+  position: relative;
+}
+#rawalpindi h1 {
+  background-color: #ffffff;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  left: 10px;
+  bottom: 1px;
+}
+
 #banner4 {
   width: 100%;
   height: 70%;
@@ -268,7 +361,6 @@ body {
   font-size: 30px;
 }
 #banner5h3 {
-
   font-size: 20px;
   word-spacing: 3px;
 }
@@ -280,4 +372,8 @@ body {
   color: white;
   font-weight: bold;
 }
-
+#banner6 {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}

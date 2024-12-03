@@ -377,8 +377,7 @@ body {
   font-size: 30px;
   margin-left: 40px;
 }
-#applinks{
-
+#applinks {
   background-color: #e21b70;
   width: 70vw;
   position: relative;
@@ -403,8 +402,38 @@ body {
   margin: 20px;
   padding: 20px;
 }
-#phone{
+#phone {
   position: absolute;
   right: 0;
   top: 0;
+}
+#faqs {
+  margin-left: 40px;
+  margin-top: 150px;
+}
+#faqs h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+#citys a {
+  font-size: 25px;
+  font-weight: bold;
+  border-right: 1px solid;
+  margin-left: 40px;
+}
+#citys {
+  padding-left: 20px;
+}
+#usefullinks {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  gap: 60px;
+}
+#foodpandaname {
+  width: 20%;
+}
+
+#usslink {
+  width: 80%;
 }

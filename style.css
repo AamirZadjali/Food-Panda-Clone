@@ -4,6 +4,7 @@ body {
   font-family: sans-serif;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 /* nav started */
 #nav {
@@ -418,22 +419,49 @@ body {
 #citys a {
   font-size: 25px;
   font-weight: bold;
-  border-right: 1px solid;
-  margin-left: 40px;
 }
 #citys {
-  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
 }
 #usefullinks {
-  height: 50px;
+  height: 50vh;
   width: 100%;
   display: flex;
-  gap: 60px;
+  justify-content: space-around;
+  margin: 3rem;
 }
 #foodpandaname {
   width: 20%;
+  height: 50vh;
 }
 
 #usslink {
-  width: 80%;
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 50vh;
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+}
+#logos {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+#spam {
+  border-right: 1px solid;
+}
+#socials {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
 }
